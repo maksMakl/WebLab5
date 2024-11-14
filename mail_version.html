@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 540px; height: 670px; margin: 0;">
+    <style>
+        * {
+            overflow: auto;
+        }
+        
+        body, html {
+            width: 540px;
+            height: 670px;
+            margin: 0px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+        }
+        
+        nav li:hover {
+            background-color: #d8d4d4;
+        }
+        
+        nav a {
+            font-size: 20px;
+            display: block;
+            padding: 7px 0 7px 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        
+        main img {
+            max-width: 640px;
+            width: 80%;
+            height: auto;
+            flex-shrink: 0;
+        }
+        
+        ol li {
+            overflow: visible;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        footer {
+            display: flex;
+            align-items: center;
+        }
+        
+        tr, td {
+           padding: 0;
+           margin: 0;
+           border: 1px solid black;
+        }
+    </style>
+
+    <head>
+        <title>Solar system</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body style="width: 100%; height: 100%; margin: 0;">
+        <table style="width: 100%; height: 100%; border-spacing: 0;">
+            <tr style="height: 15%;">
+                <!-- Header -->
+                <td style="width: 80%;">
+                    <header style="height: 100%; width: 100%; background-color: #00ffff;">
+                        <h1 style="margin: 0 20px 0 0; background-color: #ffffff; width: fit-content;">Welcome to this website!</h1>
+                    </header>
+                </td>
+
+                <!-- Stripe -->
+                <td rowspan="4" style="width: 5%;">
+                    <div style="height: 100%; width: 100%; background-color: #deb887;"></div>
+                </td>
+
+                <!-- Nav -->
+                <td rowspan="2" style="width: 15%;">
+                    <nav style="height: 100%; width: 100%; background-color: #cac5c5;">
+                        <ul>
+                            <li><a title="Home" href="index.html">Home</a></li>
+                            <li><a title="Sun" href="sun.html">Sun</a></li>
+                            <li><a title="Mercury" href="mercury.html">Mercury</a></li>
+                            <li><a title="Venus" href="venus.html">Venus</a></li>
+                            <li><a title="Earth" href="earth.html">Earth</a></li>
+                            <li><a title="Moon" href="moon.html">Moon</a></li>
+                            <li><a title="Mars" href="mars.html">Mars</a></li>
+                            <li><a title="Jupiter" href="jupiter.html">Jupiter</a></li>
+                            <li><a title="Saturn" href="saturn.html">Saturn</a></li>
+                            <li><a title="Uranus" href="uranus.html">Uranus</a></li>
+                            <li><a title="Neptune" href="neptune.html">Neptune</a></li>
+                            <li><a title="Pluto" href="pluto.html">Pluto</a></li>
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+            <tr style="height: 60%;">
+                <!-- Main -->
+                <td rowspan="2" style="width: 80%;">
+                    <main style="height: 100%; width: 100%; background-color: #ffffff;">
+                        <h2>Solar system</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa autem quaerat, nulla asperiores veritatis neque necessitatibus harum iste voluptas non perspiciatis nihil, doloribus cumque ullam repellat alias. Nulla, culpa.</p>
+                        <div style="display: flex; justify-content: center;">
+                            <img src="solar_system.png" alt="Solar system">
+                        </div>
+                    </main>
+                </td>
+            </tr>
+            <tr style="height: 10%;">
+                <!-- Aside -->
+                <td rowspan="2" style="width: 15%;">
+                    <aside style="height: 100%; width: 100%;  background-color: #7af5cc;">
+                        <ol>
+                            <li>Stuff</li>
+                            <li>Stuff</li>
+                            <li>Stuff</li>
+                        </ol>
+                    </aside>
+                </td>
+            </tr>
+            <tr style="height: 15%;">
+                <!-- Footer -->
+                <td style="width: 80%;">
+                    <footer style="height: 100%; width: 100%;  background-color:#5f9ea0;">
+                        <h1 style="background-color: #ffffff; margin: 0 0 0 20px; width: fit-content;">Have a nice day!</h1>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
