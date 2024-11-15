@@ -28,7 +28,6 @@ header {
 }
 
 nav {
-    background-color: blueviolet;
     height: 70%;
     width: 100%;
 }
@@ -45,14 +44,11 @@ footer {
     height: 15%;
 }
 
-.container aside {
-    height: 100%;
-    width: 20%;
-    float: left;
-}
 
 main {
     background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 70%;
     width: 100%;
 }
@@ -104,6 +100,8 @@ main img {
     height: 30%;
     width: 100%;
     background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ol li {
